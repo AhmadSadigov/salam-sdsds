@@ -1,0 +1,71 @@
+body {
+    background: rgb(255, 0, 0);
+    background: linear-gradient(90deg, rgba(255, 0, 0, 1) 3%, rgba(255, 0, 167, 1) 100%, rgba(134, 7, 127, 1) 100%);
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 40px;
+    width: 100%;
+}
+
+.article1 {
+    border:0 ;
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    background-color: white;
+}
+.orange{
+    color: white;
+    background-color: orange;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 0 ;
+    height: 190px;
+    border-radius: 40px 40px 800px 800px;
+}
+.red{
+    color: white;
+    background-color: red;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 0 ;
+    height: 190px;
+    border-radius: 40px 40px 800px 800px;
+}
+.purple{
+    color: white;
+    background-color: purple;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 0 ;
+    height: 190px;
+    border-radius: 40px 40px 800px 800px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+}
+.button1{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 100px;
+    border-radius: 15px;
+    color: white;
+
+}
